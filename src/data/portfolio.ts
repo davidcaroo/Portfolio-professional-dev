@@ -2,6 +2,18 @@ import { Project, Experience, Skill } from '../types';
 
 export const projects: Project[] = [
   {
+  id: '0',
+  title: 'Programming Ephemeris Terminal',
+  description:
+    'Terminal retro que muestra efemérides de programación e historia tech. Sistema híbrido: eventos verificados + generación automática con IA (GPT-4o vía OpenRouter), base de datos en Supabase y cron jobs diarios. Proyecto hecho con enfoque “vibe coding”.',
+  image: '/ephemeris.webp',
+  technologies: ['Next.js', 'React', 'TypeScript', 'TailwindCSS', 'shadcn/ui', 'OpenRouter', 'GPT-4o', 'Supabase', 'Vercel'],
+  demoUrl: 'https://programming-ephemeris-terminal.vercel.app/',
+  githubUrl: 'https://github.com/davidcaroo/programming-ephemeris-terminal',
+  category: 'fullstack',
+  featured: false
+},
+  {
     id: '1',
     title: 'ASILEGAL — Firma de Servicios Legales',
     description:
