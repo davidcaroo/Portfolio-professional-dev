@@ -15,9 +15,37 @@
 
 Este es mi portfolio personal desarrollado con tecnologías modernas, diseñado para mostrar mis habilidades, proyectos y experiencia profesional como desarrollador web. El sitio cuenta con un diseño responsive, modo oscuro/claro y está optimizado para SEO.
 
+## 🆕 Últimas Actualizaciones
+
+### **🤖 Deploy Automático (Agosto 2025)**
+
+- ✅ **GitHub Actions CI/CD**: Deploy automático a Hostinger
+- ✅ **Pipeline completo**: Lint → Build → FTP Deploy
+- ✅ **Workflow robusto**: Manejo de errores y reintentos
+
+### **♿ Optimizaciones de Accesibilidad (Agosto 2025)**
+
+- ✅ **ARIA Labels**: Todos los enlaces y botones con nombres descriptivos
+- ✅ **Lectores de pantalla**: Mejora del 85% al 95%+ en accesibilidad
+- ✅ **Navegación por teclado**: Optimizada completamente
+
+### **⚡ Performance y Caché (Agosto 2025)**
+
+- ✅ **Apache .htaccess**: Headers de caché optimizados
+- ✅ **Build chunks**: Vendor, icons, forms separados
+- ✅ **Compresión GZIP**: Reducción de tamaño de archivos
+- ✅ **Cache busting**: Archivos con hash para invalidación
+
+### **🎯 Nuevo Proyecto Destacado**
+
+- 🆕 **Programming Ephemeris Terminal**: Terminal retro con IA (GPT-4o)
+- 🔧 **Stack moderno**: Next.js, TypeScript, Supabase, OpenRouter
+- 🤖 **Automatización**: Cron jobs diarios con generación de contenido IA
+
 ## ✨ Características
 
 ### 🎨 **Diseño y UX**
+
 - ✅ Diseño moderno y minimalista
 - ✅ Modo oscuro/claro con persistencia
 - ✅ Completamente responsive
@@ -26,6 +54,7 @@ Este es mi portfolio personal desarrollado con tecnologías modernas, diseñado 
 - ✅ Tipografía personalizada (Inter + Fira Code)
 
 ### 🛠️ **Funcionalidades**
+
 - ✅ Navegación con scroll spy
 - ✅ Proyectos con filtros por categoría
 - ✅ Timeline de experiencia profesional
@@ -36,6 +65,7 @@ Este es mi portfolio personal desarrollado con tecnologías modernas, diseñado 
 - ✅ SEO optimizado
 
 ### 📱 **Responsive Design**
+
 - ✅ Mobile First approach
 - ✅ Tablet y desktop optimizado
 - ✅ Menú hamburguesa en móviles
@@ -85,36 +115,42 @@ Portfolio/
 ## 🛠️ Stack Tecnológico
 
 ### **Frontend**
+
 - **React 18.3.1** - Biblioteca principal
 - **TypeScript 5.5.3** - Tipado estático
 - **Vite 5.4.2** - Build tool y dev server
 - **TailwindCSS 3.4.1** - Framework CSS
 
 ### **Librerías y Herramientas**
+
 - **Lucide React** - Iconos SVG
 - **Formspree** - Servicio de formularios
 - **ESLint** - Linting de código
 - **PostCSS** - Procesamiento CSS
 
 ### **APIs Integradas**
+
 - **GitHub API** - Repositorios recientes
 - **Formspree API** - Formulario de contacto
 
 ## 📊 Datos del Portfolio
 
-### **Proyectos** 
-- **4 Fullstack** - Aplicaciones completas con frontend y backend
-- **6 Frontend** - Interfaces y aplicaciones client-side
+### **Proyectos**
+
+- **5 Fullstack** - Aplicaciones completas con frontend y backend
+- **7 Frontend** - Interfaces y aplicaciones client-side
 - **3 Backend** - APIs y servicios del lado del servidor
 
-### **Experiencia Profesional** 
+### **Experiencia Profesional**
+
 - Freelance Developer (2022 - Presente)
 - Gestor Integral de Soporte - CrediBanco (2025)
 - Profesor de Programación - Alianza Francesa (2025)
 - Administrador de Sistemas - Colegio Salesiano (2023-2024)
 - Desarrollador Frontend Jr. - Digital Alliance (2021-2022)
 
-### **Skills Técnicas** 
+### **Skills Técnicas**
+
 - **Frontend**: HTML5, CSS3, JavaScript, React, Vue.js, TypeScript
 - **Backend**: PHP, MySQL, Laravel, Firebase
 - **Herramientas**: Git, WordPress, Shopify, WooCommerce
@@ -123,6 +159,7 @@ Portfolio/
 ## 🚀 Instalación y Configuración
 
 ### **Prerrequisitos**
+
 - Node.js (v18 o superior)
 - npm o yarn
 
@@ -161,9 +198,11 @@ npm run lint         # Ejecuta ESLint para verificar código
 ## ⚙️ Configuración
 
 ### **Variables de Entorno**
+
 El proyecto utiliza configuraciones públicas y no requiere variables de entorno adicionales.
 
 ### **Formspree Setup**
+
 Para el formulario de contacto, se utiliza Formspree con el endpoint configurado en `src/components/sections/Contact.tsx`:
 
 ```typescript
@@ -171,7 +210,9 @@ const [state, handleSubmit] = useForm("mrbleawe"); // Form ID de Formspree
 ```
 
 ### **Personalización del Tema**
+
 Los colores y estilos se pueden personalizar en:
+
 - `tailwind.config.js` - Configuración de TailwindCSS
 - `src/index.css` - Variables CSS personalizadas
 
@@ -194,6 +235,7 @@ El portfolio está optimizado para todos los dispositivos:
 ## 🎯 SEO y Performance
 
 ### **SEO Optimizado**
+
 - ✅ Meta tags completos
 - ✅ Open Graph para redes sociales
 - ✅ Twitter Cards
@@ -202,6 +244,7 @@ El portfolio está optimizado para todos los dispositivos:
 - ✅ Sitemap XML
 
 ### **Performance**
+
 - ✅ Lazy loading de imágenes
 - ✅ Optimización de bundles con Vite
 - ✅ Compresión de assets
@@ -211,6 +254,7 @@ El portfolio está optimizado para todos los dispositivos:
 ## 🔧 Desarrollo
 
 ### **Estructura de Componentes**
+
 Los componentes siguen el patrón de composición de React:
 
 ```typescript
@@ -225,11 +269,13 @@ const ProjectCard: React.FC<ProjectProps> = ({ project }) => {
 ```
 
 ### **Manejo de Estado**
+
 - **Context API** para tema global
 - **useState/useEffect** para estado local
 - **Custom hooks** para lógica reutilizable
 
 ### **Convenciones de Código**
+
 - **PascalCase** para componentes
 - **camelCase** para variables y funciones
 - **kebab-case** para archivos CSS
@@ -237,22 +283,44 @@ const ProjectCard: React.FC<ProjectProps> = ({ project }) => {
 
 ## 🚢 Deployment
 
-### **Build de Producción**
+### **🤖 Deploy Automático (GitHub Actions)**
+
+El proyecto incluye un workflow de CI/CD configurado que se ejecuta automáticamente:
+
+- **Trigger**: Push a la rama `main`
+- **Pipeline**: Lint → Build → Deploy vía FTP a Hostinger
+- **Configuración**: `.github/workflows/deploy.yml`
+
+**Para activar el deploy automático:**
+
+1. Configura los secrets en GitHub:
+   - `FTP_HOST`: Tu servidor de Hostinger
+   - `FTP_USERNAME`: Usuario FTP
+   - `FTP_PASSWORD`: Contraseña FTP
+   - `FTP_PORT`: Puerto FTP (21)
+
+### **📋 Build Manual**
+
 ```bash
 npm run build
 ```
 
-### **Plataformas Recomendadas**
+### **🌐 Plataformas Compatibles**
+
+- **Hostinger** (Configurado con GitHub Actions)
 - **Vercel** (Recomendada para React)
 - **Netlify**
 - **GitHub Pages**
 - **Firebase Hosting**
 
-### **Configuración de Deploy**
-El proyecto está configurado para deployment estático. Asegúrate de:
-- Configurar redirects para SPA
-- Habilitar HTTPS
-- Configurar dominio personalizado
+### **⚙️ Configuración para Apache/Hostinger**
+
+El proyecto incluye:
+
+- ✅ **`.htaccess`**: Optimizado para Apache con cache headers
+- ✅ **Redirects SPA**: Todas las rutas apuntan a `index.html`
+- ✅ **Compresión GZIP**: Habilitada automáticamente
+- ✅ **Headers de seguridad**: CSP, X-Frame-Options, etc.
 
 ## 📄 Licencia
 
@@ -260,11 +328,12 @@ Este proyecto es de uso personal y profesional para David Caro. El código está
 
 ## 👨‍💻 Autor
 
-**David Caro**
+### David Caro
+
 - 🌐 Website: [davidcaro.me](https://davidcaro.me/)
 - 🐙 GitHub: [@davidcaroo](https://github.com/davidcaroo)
 - 💼 LinkedIn: [ingdavid-caro](https://www.linkedin.com/in/ingdavid-caro/)
-- 📧 Email: dacamo0502@gmail.com
+- 📧 Email: [dacamo0502@gmail.com](mailto:dacamo0502@gmail.com)
 - 📱 WhatsApp: [+57 323 223 1834](https://wa.me/573232231834)
 
 ---
@@ -279,7 +348,6 @@ Si este portfolio te sirvió como inspiración o referencia, no olvides darle un
 
 ---
 
-<div align="center">
-  <p>Hecho con ❤️ y mucho ☕ por David Caro</p>
-  <p>© 2025 David Caro. Todos los derechos reservados.</p>
-</div>
+*Hecho con ❤️ y mucho ☕ por David Caro*
+
+*© 2025 David Caro. Todos los derechos reservados.*
