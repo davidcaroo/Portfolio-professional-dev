@@ -5,7 +5,7 @@
 [![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.1-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
-> Portfolio profesional de David Caro, Fullstack Developer Junior especializado en React, Vue.js, PHP y WordPress.
+> Portfolio profesional de David Caro, Fullstack Developer especializado en React, Vue.js, PHP y WordPress.
 
 ## 🚀 Demo en Vivo
 

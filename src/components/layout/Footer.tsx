@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
                 <span className="text-accent">/&gt;</span>
               </h3>
               <p className="text-gray-300">
-                Fullstack Developer Junior especializado en crear experiencias web
+                Fullstack Developer especializado en crear experiencias web
                 excepcionales con tecnologías modernas.
               </p>
             </div>

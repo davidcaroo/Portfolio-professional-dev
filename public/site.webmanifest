@@ -1,52 +1,52 @@
 {
-    "name": "David Caro - Portfolio",
-    "short_name": "D. Caro",
-    "description": "Portfolio profesional de David Caro, Fullstack Developer Junior especializado en React, Vue.js, PHP y WordPress.",
-    "lang": "es-CO",
-    "dir": "ltr",
-    "start_url": "/",
-    "scope": "/",
-    "display": "standalone",
-    "orientation": "portrait",
-    "background_color": "#ffffff",
-    "theme_color": "#00FF7F",
-    "categories": [
-      "portfolio",
-      "software",
-      "web-development"
-    ],
-    "icons": [
-      {
-        "src": "/favicon-192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "any"
-      },
-      {
-        "src": "/favicon-512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
-      },
-      {
-        "src": "/maskable-512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-      }
-    ],
-    "shortcuts": [
-      {
-        "name": "Proyectos",
-        "short_name": "Proyectos",
-        "url": "/#projects",
-        "description": "Ver mis proyectos destacados"
-      },
-      {
-        "name": "Contacto",
-        "short_name": "Contacto",
-        "url": "/#contact",
-        "description": "Hablemos sobre tu proyecto"
-      }
-    ]
-  }
+  "name": "David Caro - Portfolio",
+  "short_name": "D. Caro",
+  "description": "Portfolio profesional de David Caro, Fullstack Developer especializado en React, Vue.js, PHP y WordPress.",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#00FF7F",
+  "categories": [
+    "portfolio",
+    "software",
+    "web-development"
+  ],
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Proyectos",
+      "short_name": "Proyectos",
+      "url": "/#projects",
+      "description": "Ver mis proyectos destacados"
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "url": "/#contact",
+      "description": "Hablemos sobre tu proyecto"
+    }
+  ]
+}
