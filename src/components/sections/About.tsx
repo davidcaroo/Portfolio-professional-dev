@@ -21,7 +21,7 @@ export const About: React.FC = () => {
             <div className="space-y-6">
               <div className="prose prose-lg dark:prose-invert">
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  Soy un <strong className="text-accent">desarrollador fullstack junior</strong> con 
+                  Soy un <strong className="text-accent">desarrollador fullstack</strong> con 
                   más de 2 años de experiencia creando aplicaciones web modernas y eficientes. 
                   Mi viaje en el desarrollo web comenzó con una curiosidad natural por 
                   entender cómo funcionan las cosas detrás de una pantalla.

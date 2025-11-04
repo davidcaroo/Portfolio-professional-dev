@@ -37,7 +37,7 @@ export const Hero: React.FC = () => {
 
           {/* Título profesional */}
           <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-            <span className="text-accent font-semibold">Fullstack Developer</span> Junior
+            <span className="text-accent font-semibold">Fullstack Developer</span>
             <br />
             <span className="text-lg">Especializado en React, Vue.js y PHP</span>
           </h2>

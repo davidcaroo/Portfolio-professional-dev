@@ -3,6 +3,18 @@ import { Project, Experience, Skill } from '../types';
 export const projects: Project[] = [
   {
   id: '0',
+  title: 'Bahari Aqua SAS — E-commerce Havaianas',
+  description:
+    'Tienda online para Bahari Aqua SAS, distribuidor oficial de Havaianas en Colombia. E-commerce completo desarrollado en Shopify con catálogo de productos, carrito de compras, pasarela de pagos integrada y diseño responsive. Optimizado para conversión y experiencia de usuario.',
+  image: '/baharia.webp',
+  technologies: ['Shopify', 'Liquid', 'JavaScript', 'CSS', 'HTML'],
+  demoUrl: 'https://bahariaqua.com/',
+  githubUrl: '#',
+  category: 'fullstack',
+  featured: true
+},
+  {
+  id: '1',
   title: 'Programming Ephemeris Terminal',
   description:
     'Terminal retro que muestra efemérides de programación e historia tech. Sistema híbrido: eventos verificados + generación automática con IA (GPT-4o vía OpenRouter), base de datos en Supabase y cron jobs diarios. Proyecto hecho con enfoque “vibe coding”.',
@@ -14,7 +26,7 @@ export const projects: Project[] = [
   featured: false
 },
   {
-    id: '1',
+    id: '2',
     title: 'ASILEGAL — Firma de Servicios Legales',
     description:
       'Sitio corporativo para firma legal especializada en tránsito: eliminación/impugnación de comparendos, acuerdos de pago y asesorías. Arquitectura clara por servicios, sección de contacto con formularios, copy SEO y performance básica optimizada.',
@@ -27,7 +39,7 @@ export const projects: Project[] = [
     featured: true
   },
   {
-    id: '2',
+    id: '3',
     title: 'Sistema de Reservas para Restaurante — Frontend',
     description:
       'Aplicación web desarrollada en React para gestionar reservas de mesas en un restaurante. Incluye selección visual de mesas, validación de disponibilidad, y un diseño responsive con experiencia de usuario optimizada.',
@@ -40,7 +52,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '3',
+    id: '4',
     title: 'Sistema de Reservas para Restaurante — Backend',
     description:
       'API REST desarrollada en PHP para gestionar reservas, disponibilidad de mesas y autenticación de usuarios. Conexión a base de datos MySQL, endpoints protegidos y validación de datos.',
@@ -53,7 +65,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '4',
+    id: '5',
     title: 'Sistema de Reservas para Hotel — Frontend',
     description:
       'Aplicación web desarrollada en React para gestionar reservas de habitaciones de hotel. Incluye búsqueda de disponibilidad, selección de habitaciones, integración con pasarela de pagos y diseño responsive.',
@@ -65,7 +77,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '5',
+    id: '6',
     title: 'Sistema de Reservas para Hotel — Backend',
     description:
       'API REST desarrollada en PHP para gestionar reservas, disponibilidad de habitaciones, pagos y autenticación de usuarios. Conexión a MySQL, endpoints seguros y validación de datos.',
@@ -77,7 +89,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '6',
+    id: '7',
     title: 'Sistema de Gestión de Salón de Eventos — Frontend',
     description:
       'Aplicación web desarrollada en React para la gestión de reservas de eventos, visualización de disponibilidad y administración de clientes.',
@@ -89,7 +101,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '7',
+    id: '8',
     title: 'Sistema de Gestión de Salón de Eventos — Backend',
     description:
       'API REST en PHP para la gestión de reservas de eventos, disponibilidad, pagos y administración de clientes.',
@@ -101,7 +113,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '8',
+    id: '9',
     title: 'Website Corporativo Agencia de Marketing',
     description: 'Sitio web corporativo responsive con CMS personalizado, optimización SEO y integración con redes sociales para una agencia de marketing digital.',
     image: 'https://leadzen.innovacode.tech/wp-content/uploads/2025/04/pexels-designecologist-1779487-scaled.webp',
@@ -111,7 +123,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '9',
+    id: '10',
     title: 'Panel Administrativo — ReporTrash',
     description:
       'Dashboard web para gestionar los reportes de focos de basura enviados desde una app móvil en Flutter. Permite visualizar incidencias en tiempo real, filtrar por estado/fecha/ubicación, actualizar estados (Pendiente, En proceso, Resuelto) y operar sobre un mapa interactivo.',
@@ -123,7 +135,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '10',
+    id: '11',
     title: 'Landing Page — ReporTrash',
     description:
       'Página web oficial para la descarga de la app ReporTrash, desarrollada como parte de mi proyecto de grado en Ingeniería Informática. La landing presenta la misión del proyecto, características principales, capturas de pantalla, enlaces de descarga y formulario de contacto.',
@@ -135,7 +147,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '11',
+    id: '12',
     title: 'Shopify Store',
     description: 'Tienda online personalizada en Shopify para una tienda de ropa urbana, con tema custom, integración de apps y optimización de conversión.',
     image: 'https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg?auto=compress&cs=tinysrgb&w=800',
@@ -145,7 +157,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '12',
+    id: '13',
     title: 'Portfolio Web — Primera Versión',
     description:
       'Primera versión de mi portfolio web como desarrollador, creada para poner en práctica conocimientos en HTML, CSS y JavaScript. Presenta una introducción personal, habilidades, proyectos y un formulario de contacto básico.',
@@ -157,7 +169,7 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    id: '13',
+    id: '14',
     title: 'Generador de Contraseñas Seguras',
     description:
       'Proyecto de prácticas para generar contraseñas seguras de manera aleatoria usando JavaScript. Las contraseñas no se almacenan y cuenta con una función para copiarlas al portapapeles de forma rápida.',
