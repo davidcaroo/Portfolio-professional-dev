@@ -185,17 +185,18 @@ export const projects: Project[] = [
 export const experiences: Experience[] = [
   {
     id: '1',
-    company: 'Freelance',
-    position: 'Desarrollador Web Fullstack',
-    period: '2022 - Presente',
+    company: 'Bahari Aqua SAS',
+    position: 'Líder de Estrategias Digitales y Desarrollo',
+    period: 'Septiembre 2025 - Presente',
     description: [
-      'Desarrollo de sitios web completos para pequeñas empresas',
-      'Marketing digital y optimización SEO',
-      'Implementación de soluciones personalizadas en WordPress y Shopify',
-      'Mantenimiento y soporte técnico de sitios web',
-      'Consultoría en tecnologías web y estrategia digital'
+      'Liderazgo en estrategia digital y desarrollo del e-commerce (Shopify)',
+      'Gestión y optimización del sitio web como distribuidor oficial de Havaianas en Colombia',
+      'Implementación de estrategias de marketing digital y SEO',
+      'Análisis de métricas y optimización de conversión',
+      'Coordinación con equipos de ventas y logística para integración digital',
+      'Desarrollo de campañas digitales y gestión de redes sociales'
     ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'MySQL', 'PHP', 'WordPress', 'Shopify']
+    technologies: ['Shopify', 'Liquid', 'JavaScript', 'CSS', 'HTML', 'SEO', 'Google Analytics', 'Marketing Digital']
   },
 
   // ─────────────────────────────────────────────────────────────────────────────
@@ -234,6 +235,21 @@ export const experiences: Experience[] = [
     company: 'Colegio Salesiano San Pedro Claver · Cartagena',
     position: 'Administrador de Sistemas',
     period: 'Sep 2023 – Dic 2024',
+    description: [
+      'Gestión de proyectos y recursos tecnológicos (hardware, software y presupuesto)',
+      'Optimización de procesos administrativos y académicos',
+      'Mantenimiento de redes locales y equipos de cómputo',
+      'Soporte técnico presencial y remoto a +500 usuarios',
+      'Capacitaciones básicas a docentes y administrativos',
+      'Mantenimiento y optimización SEO del sitio institucional en WordPress'
+    ],
+    technologies: ['Redes', 'Soporte técnico', 'WordPress', 'PHP', 'MySQL', 'JavaScript', 'SEO', 'Herramientas de monitoreo']
+  },
+  {
+    id: '4',
+    company: 'Colegio Salesiano San Pedro Claver · Cartagena',
+    position: 'Auxiliar de Sistemas',
+    period: 'Enero 2023 – Sep 2023',
     description: [
       'Gestión de proyectos y recursos tecnológicos (hardware, software y presupuesto)',
       'Optimización de procesos administrativos y académicos',
